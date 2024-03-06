@@ -31,3 +31,4 @@ Tervetuloa siis mukaan tutkimusmatkalle luovuuden kiehtovaan maailmaan! Toivotta
 ---
 
 **Minna's Luovuuden Nurkkauksen README** © 2024 Minna. Kaikki oikeudet pidätetään.
+![käpäläcraft](public/img/logo.png)
