@@ -389,15 +389,6 @@ table.materialList td {
   font-size: 110%;
 }
 
-article.ompelu {
-  background-image: url("../img/keski.png");
-  padding: 5%;
-  padding-left: -5em;
-}
-article.ompelu div.ompelutext img {
-  width: 30%;
-}
-
 aside {
   position: fixed;
   width: 10%;
@@ -457,7 +448,7 @@ footer div#socialmedia {
   margin-right: 50%;
 }
 footer div#socialmedia img {
-  width: 10%;
+  width: 15%;
 }
 footer div#name {
   flex: 40%;
