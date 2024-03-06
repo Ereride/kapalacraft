@@ -492,6 +492,54 @@ footer div#logo img {
     margin-top: 15%;
     height: 30vh;
   }
+  article p {
+    font-size: 90%;
+  }
+  article h1,
+  article h2 {
+    font-size: 160%;
+  }
+  article h3 {
+    font-size: 120%;
+  }
+  article li {
+    margin-top: 1%;
+    font-size: 100%;
+  }
+  table.materialList {
+    font-size: 80%;
+    width: 100%;
+  }
+  table.materialList td {
+    padding-right: 5%;
+  }
+  div.craft {
+    display: block;
+    margin-top: 0;
+  }
+  div.craft img {
+    margin-left: 30%;
+    align-items: center;
+    -o-object-position: center;
+       object-position: center;
+    width: 40%;
+  }
+  footer div#socialmedia img {
+    width: 20%;
+  }
+  footer div#name {
+    margin-right: 2%;
+  }
+  footer div#name p {
+    font-size: 40%;
+  }
+}
+/*900px*/
+@media screen and (max-width: 900px) {
+  .gallery-container {
+    margin-top: 15%;
+    height: 30vh;
+  }
   .gallery-item-1,
   .gallery-item-5 {
     display: none;
@@ -520,9 +568,6 @@ footer div#logo img {
   table.materialList td {
     padding-right: 5%;
   }
-  aside {
-    font-size: 50%;
-  }
   div.craft {
     display: block;
     margin-top: 0;
@@ -539,19 +584,20 @@ footer div#logo img {
     margin-top: -15%;
     margin-left: 75%;
     width: 20%;
-    height: 5%;
+    height: 10%;
     font-size: 25%;
   }
   footer div#socialmedia img {
     width: 20%;
   }
-  footer div#name {
+  footer div#socialmedia div#name {
     margin-right: 2%;
   }
-  footer div#name p {
+  footer div#socialmedia div#name p {
     font-size: 40%;
   }
 }
+/*600px*/
 @media screen and (max-width: 600px) {
   .otsikko {
     font-size: 70%;
@@ -649,9 +695,9 @@ footer div#logo img {
   aside {
     position: absolute;
     margin-top: -15%;
-    margin-left: 75%;
-    width: 20%;
-    height: 5%;
+    margin-left: 65%;
+    width: 30%;
+    height: 10%;
     font-size: 25%;
   }
   footer div#socialmedia img {
@@ -667,6 +713,7 @@ footer div#logo img {
     width: 70%;
   }
 }
+/*400px*/
 @media screen and (max-width: 400px) {
   .otsikko {
     font-size: 50%;
@@ -676,6 +723,11 @@ footer div#logo img {
     margin-right: 20%;
   }
   aside {
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 65%;
+    width: 30%;
+    height: 10%;
     font-size: 15%;
   }
   footer div#socialmedia img {

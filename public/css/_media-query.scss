@@ -51,6 +51,74 @@
     height: 30vh;
   }
 
+  article {
+    p {
+      font-size: 90%;
+    }
+
+    h1,
+    h2 {
+      font-size: 160%;
+    }
+
+    h3 {
+      font-size: 120%;
+    }
+
+    li {
+      margin-top: 1%;
+      font-size: 100%;
+    }
+  }
+
+  table.materialList {
+    font-size: 80%;
+    width: 100%;
+
+    td {
+      padding-right: 5%;
+    }
+  }
+
+
+  div.craft {
+    display: block;
+    margin-top: 0;
+
+    img {
+      margin-left: 30%;
+      align-items: center;
+      object-position: center;
+      width: 40%;
+    }
+
+  }
+
+  footer{
+    div#socialmedia{
+      img{
+        width: 20%;
+      }
+    }  
+    
+    div#name{
+      margin-right: 2%;
+      p {
+        font-size: 40%;
+      }
+    }
+    
+  }
+
+}
+/*900px*/
+@media screen and (max-width: 900px) {
+
+  .gallery-container {
+    margin-top: 15%;
+    height: 30vh;
+  }
+
   .gallery-item-1,
   .gallery-item-5 {
     display: none;
@@ -89,9 +157,6 @@
     }
   }
 
-  aside {
-    font-size: 50%;
-  }
 
   div.craft {
     display: block;
@@ -111,15 +176,16 @@
     margin-top: -15%;
     margin-left: 75%;
     width: 20%;
-    height: 5%;
+    height: 10%;
     font-size: 25%;
   }
 
   footer{
     div#socialmedia{
+      
       img{
         width: 20%;
-      }
+
     }  
     
     div#name{
@@ -132,7 +198,9 @@
   }
 
 }
+}
 
+/*600px*/
 @media screen and (max-width: 600px) {
   .otsikko {
     font-size: 70%;
@@ -254,9 +322,9 @@
   aside {
     position: absolute;
     margin-top: -15%;
-    margin-left: 75%;
-    width: 20%;
-    height: 5%;
+    margin-left: 65%;
+    width: 30%;
+    height: 10%;
     font-size: 25%;
   }
 
@@ -283,6 +351,7 @@
 }
 }
 
+/*400px*/
 @media screen and (max-width: 400px) {
 
   .otsikko{
@@ -295,6 +364,11 @@
   }
 
   aside {
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 65%;
+    width: 30%;
+    height: 10%;
     font-size: 15%;
   }
 
