@@ -1,7 +1,4 @@
 @media screen and (max-width: 1350px) {
-
- 
-
   .otsikko {
     padding-left: 10%;
     flex-direction: row;
@@ -47,7 +44,7 @@
 
   .navigointi a:hover::before {
     width: 50%;
-  } 
+  }
 
   .gallery-container {
     margin-top: 15%;
@@ -56,144 +53,164 @@
 
   .gallery-item-1,
   .gallery-item-5 {
-  display: none; 
-}
+    display: none;
+  }
 
-.gallery-item-3 {
-  box-shadow: none;
-}
-  article {
-    p {
+  .gallery-item-3 {
+    box-shadow: none;
+  }
+
+  article p {
     font-size: 90%;
   }
 
-  h1,h2 {
+  article h1,
+  article h2 {
     font-size: 160%;
   }
 
-  h3 {
+  article h3 {
     font-size: 120%;
   }
 
-  li {
+  article li {
     margin-top: 1%;
     font-size: 100%;
-  }
   }
 
   table.tarvikelista {
     font-size: 80%;
     width: 100%;
-    td {
-      padding-right: 5%;
-    }
+  }
 
+  table.tarvikelista td {
+    padding-right: 5%;
   }
 
   aside {
     font-size: 50%;
   }
 
-  div.askartelu{
+  div.askartelu {
     display: block;
     margin-top: 0;
-    
-    img {
-      margin-left: 30%;
-      align-items: center;
-      object-position: center;
-      width: 40%;
-    }
   }
 
+  div.askartelu img {
+    margin-left: 30%;
+    align-items: center;
+    object-position: center;
+    width: 40%;
+  }
 }
 
-@media screen and (max-width: 600px){
-
-  .otsikko{
+@media screen and (max-width: 600px) {
+  .otsikko {
     font-size: 70%;
   }
 
   .navigointi a {
     font-size: 80%;
+    width: 30%;
   }
 
-.gallery-container {
-  margin-top: 20%;
-  height: 15vh;
-}
+  .gallery-container {
+    margin-top: 20%;
+    height: 15vh;
+  }
 
-.gallery-item-1,
-.gallery-item-2,
-.gallery-item-4,
-.gallery-item-5 {
-  display: none;
-  
-}
+  .gallery-item-1,
+  .gallery-item-2,
+  .gallery-item-4,
+  .gallery-item-5 {
+    display: none;
+  }
 
-.gallery-item-3 {
-  box-shadow: none;
-}
+  .gallery-item-3 {
+    box-shadow: none;
+  }
 
-article {
-  p {
-  font-size: 70%;
-  line-height: 1.5;
-  padding: 1%;
-}
+  article p {
+    font-size: 70%;
+    line-height: 1.5;
+    padding: 1%;
+  }
 
-h1,h2 {
-  font-size: 90%;
-}
+  article h1,
+  article h2 {
+    font-size: 90%;
+  }
 
-h3 {
-  font-size: 100%;
-  text-align: center;
-}
+  article h3 {
+    font-size: 100%;
+    text-align: center;
+  }
 
-li {
-  font-size: 50%;
-  line-height: 1.5;
-  padding: 0;
-  margin: 0;
-}
+  article li {
+    font-size: 50%;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+  }
 
-
-img{
-  margin: 0;
-  border-radius: 10px;
-}
-
-.text p{
-  margin-bottom: 5%;
-}
-}
-
-div.askartelu{
-  display: block;
-  margin-top: 0;
-  
   img {
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  .text p {
+    margin-bottom: 5%;
+  }
+
+  div.koira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.koira h2 {
+    line-height: 110%;
+  }
+
+  div.koira .text {
+    margin-top: 0;
+  }
+
+  div.koira img {
+    align-items: center;
+    object-position: center;
+  }
+
+  div.askartelu {
+    display: block;
+    margin-top: 0;
+  }
+
+  div.askartelu img {
     margin-left: 30%;
     align-items: center;
     object-position: center;
   }
-}
 
-div.taulukko {
-  font-size: 50%;
-  width: 100%;
-  line-height: 1.5;
+  div#esittely img {
+    display: block;
+    margin-top: 0;
+  }
 
-
-  table {
+  div.taulukko {
+    font-size: 50%;
     width: 100%;
-    padding: 2%;    
+    line-height: 1.5;
   }
 
-  table.tarvikelista {
-    padding: 10%;
+  div.taulukko table {
+    width: 100%;
+    padding: 2%;
   }
+
+  div.taulukko table.tarvikelista {
+    padding: 10%;
   }
 
   aside {
@@ -204,7 +221,11 @@ div.taulukko {
     height: 5%;
     font-size: 25%;
   }
-
 }
-  
 
+@media screen and (max-width: 400px) {
+  .navigointi a {
+    font-size: 80%;
+    margin-right: 10%;
+  }
+}
