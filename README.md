@@ -1,9 +1,9 @@
 ![käpäläcraft](public/img/logo.png)
-# Minnan Luovuuden Nurkkauksen README
+# Käpäläcraft - Luovuuden Nurkkaus README
 
-Tervetuloa Minnan Luovuuden Nurkkaukseen, seikkailuun elämän kirjavan kudoksen parissa!
+Tervetuloa Käpäläcraftin Luovuuden Nurkkaukseen, seikkailuun elämän kirjavan kudoksen parissa!
 
-Hei, olen Minna, iloinen käsillä tekemisen ja jutustelun ystävä. Tämä on minun pieni virtuaalinen nurkkaukseni, jossa jokainen päivä on täynnä mahdollisuuksia luovuuden ja ilon jakamisen suhteen.
+Hei, olen Minna, iloinen käsillä tekemisen ja jutustelun ystävä. Tämä on minun pieni virtuaalinen nurkkaukseni, jossa jokainen päivä on täynnä mahdollisuuksia luovuuden ja ilon jakamisen suhteen, joka sai nimekseen Käpäläcraft.
 
 ## Kuka Minna On?
 
@@ -31,5 +31,5 @@ Tervetuloa siis mukaan tutkimusmatkalle luovuuden kiehtovaan maailmaan! Toivotta
 
 ---
 
-**Minna's Luovuuden Nurkkauksen README** © 2024 Minna. Kaikki oikeudet pidätetään.
+**Käpäläcraft - Luovuuden Nurkkaus README** © 2024 Minna. Kaikki oikeudet pidätetään.
 
