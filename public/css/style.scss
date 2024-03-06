@@ -106,7 +106,7 @@ article.alternativeB {
   background-image: url('../img/yksi.png');
 
   li {
-    list-style-image: url('../img/koira/latetassu3.png');
+    list-style-image: url('../img/koira/seratassu.png');
   }
 
   p {
@@ -118,7 +118,7 @@ article.alternativeA {
   background-image: url('../img/kaksi.png');
 
   li {
-    list-style-image: url('../img/koira/seratassu.png');
+    list-style-image: url('../img/koira/latetassu3.png');
   }
 
   p {
@@ -288,13 +288,16 @@ footer {
 
 
 div#socialmedia{
-  flex: 50%;
+  flex: 40%;
   margin-left: 5%;
   margin-right: 50%;
+  img{
+    width: 10%;
+  }
 }  
 
 div#name{
-  flex: 50%;
+  flex: 40%;
   text-align: right;
   display: flex;
   p {
@@ -304,7 +307,9 @@ div#name{
     padding: 1% 10%;
     text-shadow: 2px 2px 3px black;
   }
+}
   div#logo{
+    flex: 20%;
     img{
       width: 30%;
       margin-bottom: 10%; 
@@ -312,6 +317,6 @@ div#name{
   }
 }
 
-}
+
 
 @import "media-query";

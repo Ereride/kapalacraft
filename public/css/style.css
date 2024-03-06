@@ -266,7 +266,7 @@ article.alternativeB {
   background-image: url("../img/yksi.png");
 }
 article.alternativeB li {
-  list-style-image: url("../img/koira/latetassu3.png");
+  list-style-image: url("../img/koira/seratassu.png");
 }
 article.alternativeB p {
   padding-left: 15%;
@@ -277,7 +277,7 @@ article.alternativeA {
   background-image: url("../img/kaksi.png");
 }
 article.alternativeA li {
-  list-style-image: url("../img/koira/seratassu.png");
+  list-style-image: url("../img/koira/latetassu3.png");
 }
 article.alternativeA p {
   padding-left: 15%;
@@ -422,12 +422,15 @@ footer {
   display: flex;
 }
 footer div#socialmedia {
-  flex: 50%;
+  flex: 40%;
   margin-left: 5%;
   margin-right: 50%;
 }
+footer div#socialmedia img {
+  width: 10%;
+}
 footer div#name {
-  flex: 50%;
+  flex: 40%;
   text-align: right;
   display: flex;
 }
@@ -438,7 +441,10 @@ footer div#name p {
   padding: 1% 10%;
   text-shadow: 2px 2px 3px black;
 }
-footer div#name div#logo img {
+footer div#logo {
+  flex: 20%;
+}
+footer div#logo img {
   width: 30%;
   margin-bottom: 10%;
 }
@@ -507,26 +513,43 @@ footer div#name div#logo img {
     margin-top: 1%;
     font-size: 100%;
   }
-  table.tarvikelista {
+  table.materialList {
     font-size: 80%;
     width: 100%;
   }
-  table.tarvikelista td {
+  table.materialList td {
     padding-right: 5%;
   }
   aside {
     font-size: 50%;
   }
-  div.askartelu {
+  div.craft {
     display: block;
     margin-top: 0;
   }
-  div.askartelu img {
+  div.craft img {
     margin-left: 30%;
     align-items: center;
     -o-object-position: center;
        object-position: center;
     width: 40%;
+  }
+  aside {
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 75%;
+    width: 20%;
+    height: 5%;
+    font-size: 25%;
+  }
+  footer div#socialmedia img {
+    width: 20%;
+  }
+  footer div#name {
+    margin-right: 2%;
+  }
+  footer div#name p {
+    font-size: 40%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -551,7 +574,7 @@ footer div#name div#logo img {
     box-shadow: none;
   }
   article p {
-    font-size: 70%;
+    font-size: 50%;
     line-height: 1.5;
     padding: 1%;
   }
@@ -576,47 +599,51 @@ footer div#name div#logo img {
   .text p {
     margin-bottom: 5%;
   }
-  div.koira {
+  div.dog {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  div.koira h2 {
+  div.dog h2 {
     line-height: 110%;
   }
-  div.koira .text {
-    margin-top: 0;
-  }
-  div.koira img {
+  div.dog img {
+    display: block;
     align-items: center;
     -o-object-position: center;
        object-position: center;
   }
-  div.askartelu {
+  img.pattern {
+    margin-left: 2%;
+    margin-right: 12%;
+    border-radius: 30px;
+    width: 30%;
+  }
+  img.level {
+    width: 30%;
+    margin-top: 5%;
+  }
+  div.craft {
     display: block;
     margin-top: 0;
   }
-  div.askartelu img {
+  div.craft img {
     margin-left: 30%;
     align-items: center;
     -o-object-position: center;
        object-position: center;
   }
-  div#esittely img {
-    display: block;
-    margin-top: 0;
-  }
-  div.taulukko {
+  div.tableDesign {
     font-size: 50%;
     width: 100%;
     line-height: 1.5;
   }
-  div.taulukko table {
+  div.tableDesign table {
     width: 100%;
     padding: 2%;
   }
-  div.taulukko table.tarvikelista {
+  div.tableDesign table.materialList {
     padding: 10%;
   }
   aside {
@@ -627,10 +654,40 @@ footer div#name div#logo img {
     height: 5%;
     font-size: 25%;
   }
+  footer div#socialmedia img {
+    width: 20%;
+  }
+  footer div#name {
+    margin-right: 2%;
+  }
+  footer div#name p {
+    font-size: 40%;
+  }
+  footer div#logo img {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 400px) {
+  .otsikko {
+    font-size: 50%;
+  }
   .navigointi a {
     font-size: 80%;
-    margin-right: 10%;
+    margin-right: 20%;
+  }
+  aside {
+    font-size: 15%;
+  }
+  footer div#socialmedia img {
+    margin-top: 10%;
+    width: 20%;
+  }
+  footer div#name p {
+    font-size: 30%;
+    padding: 5%;
+    margin-left: 20%;
+  }
+  footer div#logo img {
+    width: 250%;
   }
 }/*# sourceMappingURL=style.css.map */
