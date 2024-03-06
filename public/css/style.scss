@@ -89,6 +89,15 @@ article {
     margin: 0.5em 0;
   }
 
+  h4 {
+    font-size: 170%;
+    padding-bottom: 2%;
+    
+    em {
+      text-decoration: underline blueviolet dotted;
+    } 
+  }
+
   p {
     font-size: 110%;
     float: left;
