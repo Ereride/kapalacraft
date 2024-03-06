@@ -107,10 +107,12 @@ article.alternativeB {
 
   li {
     list-style-image: url('../img/koira/seratassu.png');
+    margin-left: 20%;
+    font-size: 110%;
   }
 
   p {
-    padding-left: 15%;
+    padding-left: 17%;
   }
 }
 /*kaksi*/
@@ -119,11 +121,10 @@ article.alternativeA {
 
   li {
     list-style-image: url('../img/koira/latetassu3.png');
+    margin-left: 5%;
+    font-size: 110%;
   }
 
-  p {
-    padding-left: 15%;
-  }
 }
 
 article.center {
@@ -156,6 +157,31 @@ div.introduction {
   img {
     height: 50%;
   }
+}
+
+div.dog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  h2 {
+    line-height: 110%;
+  }
+
+  img {
+    display: block;
+    align-items: center;
+    object-position: center;
+    margin: 0;
+  }
+
+  li{
+    margin-top: 0;
+    padding: 1%;
+  }
+
 }
 
 table#ready {

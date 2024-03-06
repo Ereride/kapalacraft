@@ -80,7 +80,6 @@
     }
   }
 
-
   div.craft {
     display: block;
     margin-top: 0;
@@ -91,26 +90,25 @@
       object-position: center;
       width: 40%;
     }
-
   }
 
-  footer{
-    div#socialmedia{
-      img{
+  footer {
+    div#socialmedia {
+      img {
         width: 20%;
       }
-    }  
-    
-    div#name{
+    }
+
+    div#name {
       margin-right: 2%;
+
       p {
         font-size: 40%;
       }
     }
-    
   }
-
 }
+
 /*900px*/
 @media screen and (max-width: 900px) {
 
@@ -130,7 +128,7 @@
 
   article {
     p {
-      font-size: 90%;
+      font-size: 70%;
     }
 
     h1,
@@ -144,7 +142,6 @@
 
     li {
       margin-top: 1%;
-      font-size: 100%;
     }
   }
 
@@ -157,6 +154,26 @@
     }
   }
 
+  div.dog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      line-height: 110%;
+    }
+
+    img {
+      display: block;
+      align-items: center;
+      object-position: center;
+    }
+
+    li {
+      font-size: 70%;
+    }
+  }
 
   div.craft {
     display: block;
@@ -168,7 +185,6 @@
       object-position: center;
       width: 40%;
     }
-
   }
 
   aside {
@@ -180,25 +196,21 @@
     font-size: 50%;
   }
 
-  footer{
-    div#socialmedia{
-      
-      img{
+  footer {
+    div#socialmedia {
+      img {
         width: 20%;
-
-    }  
-    
-    div#name{
-      margin-right: 2%;
-      p {
-        font-size: 40%;
-      }
+      } 
     }
-    
+    div#name {
+      margin-right: 2%;
+        p {
+          font-size: 40%;
+        }
+    }
   }
+}
 
-}
-}
 
 /*600px*/
 @media screen and (max-width: 600px) {
@@ -245,8 +257,6 @@
     }
 
     li {
-      font-size: 50%;
-      line-height: 1.5;
       padding: 0;
       margin: 0;
     }
@@ -266,16 +276,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    h2 {
-    line-height: 110%;
-  }
-  img {
-    display: block;
-    align-items: center;
-    object-position: center;
-  }
 
+    h2 {
+      line-height: 110%;
+    }
+
+    img {
+      display: block;
+      align-items: center;
+      object-position: center;
+    }
+
+    li {
+      font-size: 50%;
+      line-height: 1;
+    }
   }
 
   img.pattern {
@@ -300,7 +315,6 @@
       align-items: center;
       object-position: center;
     }
-
   }
 
   div.tableDesign {
@@ -316,7 +330,6 @@
     table.materialList {
       padding: 10%;
     }
-
   }
 
   aside {
@@ -328,39 +341,68 @@
     font-size: 40%;
   }
 
-  footer{
-    div#socialmedia{
-      img{
+  footer {
+    div#socialmedia {
+      margin-bottom: 20%;
+
+      img {
         width: 20%;
       }
-    }  
-    
-    div#name{
+    }
+
+    div#name {
       margin-right: 2%;
+
       p {
         font-size: 40%;
       }
     }
 
-    div#logo{
-      img{
-        width: 70%;
+    div#logo {
+      img {
+        width: 40%;
       }
-    
+
+    }
   }
-}
 }
 
 /*400px*/
 @media screen and (max-width: 400px) {
 
-  .otsikko{
+  .otsikko {
     font-size: 50%;
   }
 
   .navigointi a {
     font-size: 80%;
     margin-right: 20%;
+  }
+
+  div.dog {
+
+    margin-left: 0;
+
+    h2 {
+      line-height: 110%;
+      font-size: 70%;
+    }
+
+    img {
+      display: block;
+      align-items: center;
+      object-position: center;
+    }
+
+    li {
+      font-size: 40%;
+      line-height: 1.5;
+    }
+
+    p {
+      font-size: 40%;
+    }
+
   }
 
   aside {
@@ -372,29 +414,33 @@
     font-size: 15%;
   }
 
-  footer{
-    div#socialmedia{
-      img{
-        margin-top: 10%;
-        width: 20%;
+  footer {
+    div#socialmedia {
+      margin-bottom: 10%;
+
+      img {
+        width: 30%;
       }
-    }  
-    
-    div#name{
+    }
+
+    div#name {
+      width: 50%;
 
       p {
         font-size: 30%;
         padding: 5%;
-        margin-left: 20%;
       }
     }
 
-    div#logo{
-      img{
-        width: 250%;
+    div#logo {
+      margin-right: 5%;
+
+      img {
+        width: 75%;
+
       }
     }
-    
+
   }
 
 }

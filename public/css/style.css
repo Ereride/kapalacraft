@@ -267,9 +267,11 @@ article.alternativeB {
 }
 article.alternativeB li {
   list-style-image: url("../img/koira/seratassu.png");
+  margin-left: 20%;
+  font-size: 110%;
 }
 article.alternativeB p {
-  padding-left: 15%;
+  padding-left: 17%;
 }
 
 /*kaksi*/
@@ -278,9 +280,8 @@ article.alternativeA {
 }
 article.alternativeA li {
   list-style-image: url("../img/koira/latetassu3.png");
-}
-article.alternativeA p {
-  padding-left: 15%;
+  margin-left: 5%;
+  font-size: 110%;
 }
 
 article.center {
@@ -309,6 +310,28 @@ div.introduction {
 }
 div.introduction img {
   height: 50%;
+}
+
+div.dog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+div.dog h2 {
+  line-height: 110%;
+}
+div.dog img {
+  display: block;
+  align-items: center;
+  -o-object-position: center;
+     object-position: center;
+  margin: 0;
+}
+div.dog li {
+  margin-top: 0;
+  padding: 1%;
 }
 
 table#ready {
@@ -548,7 +571,7 @@ footer div#logo img {
     box-shadow: none;
   }
   article p {
-    font-size: 90%;
+    font-size: 70%;
   }
   article h1,
   article h2 {
@@ -559,7 +582,6 @@ footer div#logo img {
   }
   article li {
     margin-top: 1%;
-    font-size: 100%;
   }
   table.materialList {
     font-size: 80%;
@@ -567,6 +589,24 @@ footer div#logo img {
   }
   table.materialList td {
     padding-right: 5%;
+  }
+  div.dog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div.dog h2 {
+    line-height: 110%;
+  }
+  div.dog img {
+    display: block;
+    align-items: center;
+    -o-object-position: center;
+       object-position: center;
+  }
+  div.dog li {
+    font-size: 70%;
   }
   div.craft {
     display: block;
@@ -590,10 +630,10 @@ footer div#logo img {
   footer div#socialmedia img {
     width: 20%;
   }
-  footer div#socialmedia div#name {
+  footer div#name {
     margin-right: 2%;
   }
-  footer div#socialmedia div#name p {
+  footer div#name p {
     font-size: 40%;
   }
 }
@@ -633,8 +673,6 @@ footer div#logo img {
     text-align: center;
   }
   article li {
-    font-size: 50%;
-    line-height: 1.5;
     padding: 0;
     margin: 0;
   }
@@ -659,6 +697,10 @@ footer div#logo img {
     align-items: center;
     -o-object-position: center;
        object-position: center;
+  }
+  div.dog li {
+    font-size: 50%;
+    line-height: 1;
   }
   img.pattern {
     margin-left: 2%;
@@ -700,6 +742,9 @@ footer div#logo img {
     height: 10%;
     font-size: 40%;
   }
+  footer div#socialmedia {
+    margin-bottom: 20%;
+  }
   footer div#socialmedia img {
     width: 20%;
   }
@@ -710,7 +755,7 @@ footer div#logo img {
     font-size: 40%;
   }
   footer div#logo img {
-    width: 70%;
+    width: 40%;
   }
 }
 /*400px*/
@@ -722,6 +767,26 @@ footer div#logo img {
     font-size: 80%;
     margin-right: 20%;
   }
+  div.dog {
+    margin-left: 0;
+  }
+  div.dog h2 {
+    line-height: 110%;
+    font-size: 70%;
+  }
+  div.dog img {
+    display: block;
+    align-items: center;
+    -o-object-position: center;
+       object-position: center;
+  }
+  div.dog li {
+    font-size: 40%;
+    line-height: 1.5;
+  }
+  div.dog p {
+    font-size: 40%;
+  }
   aside {
     position: absolute;
     margin-top: -30%;
@@ -730,16 +795,23 @@ footer div#logo img {
     height: 10%;
     font-size: 15%;
   }
+  footer div#socialmedia {
+    margin-bottom: 10%;
+  }
   footer div#socialmedia img {
-    margin-top: 10%;
-    width: 20%;
+    width: 30%;
+  }
+  footer div#name {
+    width: 50%;
   }
   footer div#name p {
     font-size: 30%;
     padding: 5%;
-    margin-left: 20%;
+  }
+  footer div#logo {
+    margin-right: 5%;
   }
   footer div#logo img {
-    width: 250%;
+    width: 75%;
   }
 }/*# sourceMappingURL=style.css.map */
