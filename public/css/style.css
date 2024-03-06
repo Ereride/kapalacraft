@@ -534,6 +534,9 @@ footer div#logo img {
     margin-top: 1%;
     font-size: 100%;
   }
+  article h4 {
+    font-size: 100%;
+  }
   table.materialList {
     font-size: 80%;
     width: 100%;
@@ -587,6 +590,9 @@ footer div#logo img {
   }
   article li {
     margin-top: 1%;
+  }
+  article h4 {
+    font-size: 80%;
   }
   table.materialList {
     font-size: 80%;
@@ -680,6 +686,9 @@ footer div#logo img {
   article li {
     padding: 0;
     margin: 0;
+  }
+  article h4 {
+    font-size: 60%;
   }
   img {
     margin: 0;
