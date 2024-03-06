@@ -1,3 +1,4 @@
+![käpäläcraft](public/img/logo.png)
 # Minnan Luovuuden Nurkkauksen README
 
 Tervetuloa Minnan Luovuuden Nurkkaukseen, seikkailuun elämän kirjavan kudoksen parissa!
@@ -31,4 +32,4 @@ Tervetuloa siis mukaan tutkimusmatkalle luovuuden kiehtovaan maailmaan! Toivotta
 ---
 
 **Minna's Luovuuden Nurkkauksen README** © 2024 Minna. Kaikki oikeudet pidätetään.
-![käpäläcraft](public/img/logo.png)
+
