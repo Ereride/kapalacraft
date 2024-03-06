@@ -1,0 +1,210 @@
+@media screen and (max-width: 1350px) {
+
+ 
+
+  .otsikko {
+    padding-left: 10%;
+    flex-direction: row;
+  }
+
+  .navigointi a {
+    display: none;
+    padding: 5px 15px;
+    padding-right: 50px;
+    margin-left: 5em;
+  }
+
+  .navigointi a.icon {
+    float: right;
+    display: block;
+    margin-right: 2%;
+  }
+
+  .navigointi.responsive {
+    position: relative;
+  }
+
+  .navigointi.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navigointi.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navigointi a::before {
+    content: '';
+    background: transparent;
+  }
+
+  .navigointi a:hover {
+    color: green;
+  }
+
+  .navigointi a:hover::before {
+    width: 50%;
+  } 
+
+  .gallery-container {
+    margin-top: 15%;
+    height: 30vh;
+  }
+
+  .gallery-item-1,
+  .gallery-item-5 {
+  display: none; 
+}
+
+.gallery-item-3 {
+  box-shadow: none;
+}
+  article {
+    p {
+    font-size: 90%;
+  }
+
+  h1,h2 {
+    font-size: 160%;
+  }
+
+  h3 {
+    font-size: 120%;
+  }
+
+  li {
+    margin-top: 1%;
+    font-size: 100%;
+  }
+  }
+
+  table.tarvikelista {
+    font-size: 80%;
+    width: 100%;
+    td {
+      padding-right: 5%;
+    }
+
+  }
+
+  aside {
+    font-size: 50%;
+  }
+
+  div.askartelu{
+    display: block;
+    margin-top: 0;
+    
+    img {
+      margin-left: 30%;
+      align-items: center;
+      object-position: center;
+      width: 40%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .otsikko{
+    font-size: 70%;
+  }
+
+  .navigointi a {
+    font-size: 80%;
+  }
+
+.gallery-container {
+  margin-top: 20%;
+  height: 15vh;
+}
+
+.gallery-item-1,
+.gallery-item-2,
+.gallery-item-4,
+.gallery-item-5 {
+  display: none;
+  
+}
+
+.gallery-item-3 {
+  box-shadow: none;
+}
+
+article {
+  p {
+  font-size: 70%;
+  line-height: 1.5;
+  padding: 1%;
+}
+
+h1,h2 {
+  font-size: 90%;
+}
+
+h3 {
+  font-size: 100%;
+  text-align: center;
+}
+
+li {
+  font-size: 50%;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+
+img{
+  margin: 0;
+  border-radius: 10px;
+}
+
+.text p{
+  margin-bottom: 5%;
+}
+}
+
+div.askartelu{
+  display: block;
+  margin-top: 0;
+  
+  img {
+    margin-left: 30%;
+    align-items: center;
+    object-position: center;
+  }
+}
+
+div.taulukko {
+  font-size: 50%;
+  width: 100%;
+  line-height: 1.5;
+
+
+  table {
+    width: 100%;
+    padding: 2%;    
+  }
+
+  table.tarvikelista {
+    padding: 10%;
+  }
+  }
+
+  aside {
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 75%;
+    width: 20%;
+    height: 5%;
+    font-size: 25%;
+  }
+
+}
+  
+
