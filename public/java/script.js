@@ -1,66 +1,53 @@
+// Select the gallery container and gallery controls container
 const galleryContainer = document.querySelector('.gallery-container');
-const gallerControlsContainer = document.querySelector('.gallery-controls');
+
+// Define gallery controls (previous and next)
 const galleryControls = ['previous', 'next'];
+
+// Select all gallery items
 const galleryItems = document.querySelectorAll('.gallery-item');
 
+// Define a class for the carousel functionality
 class Carousel {
     constructor(container, items, controls) {
+        // Initialize carousel properties
         this.carouselContainer = container;
         this.carouselControls = controls;
         this.carouselArray = [...items];
         this.intervalId = null;
-        this.rotationInterval = 3000; // Adjust this value to change the rotation interval in milliseconds
+        this.rotationInterval = 2500; // Adjust this value to change the rotation interval in milliseconds
     }
 
+    // Start automatic rotation of the gallery
     startRotation() {
         this.intervalId = setInterval(() => {
             this.rotateGallery();
         }, this.rotationInterval);
     }
 
+    // Stop automatic rotation of the gallery
     stopRotation() {
         clearInterval(this.intervalId);
     }
 
+    // Rotate the gallery items
     rotateGallery() {
         const lastItem = this.carouselArray.pop();
         this.carouselArray.unshift(lastItem);
         this.updateGallery();
     }
 
+    // Update the gallery items with appropriate classes
     updateGallery() {
         this.carouselArray.forEach(el => {
-            el.classList.remove('gallery-item-1');
-            el.classList.remove('gallery-item-2');
-            el.classList.remove('gallery-item-3');
-            el.classList.remove('gallery-item-4');
-            el.classList.remove('gallery-item-5');
-            el.classList.remove('gallery-item-6');
-            el.classList.remove('gallery-item-7');
-            el.classList.remove('gallery-item-8');
-            el.classList.remove('gallery-item-9');
-            el.classList.remove('gallery-item-10');
-            el.classList.remove('gallery-item-11');
-            el.classList.remove('gallery-item-12');
-            el.classList.remove('gallery-item-13');
-            el.classList.remove('gallery-item-14');
+            el.classList.remove(...Array.from({ length: 12 }, (_, i) => `gallery-item-${i + 1}`));
         });
         this.carouselArray.slice(0, 5).forEach((el, i) => {
             el.classList.add(`gallery-item-${i + 1}`);
         });
     }
 
-
-    useControls() {
-        const triggers = [...gallerControlsContainer.childNodes];
-        triggers.forEach(control => {
-            control.addEventListener('click', e => {
-                e.preventDefault();
-                this.setCurrentState(control);
-            });
-        });
-    }
-
+    // Add hover listeners to stop and start rotation on mouse enter and leave
     addHoverListeners() {
         this.carouselContainer.addEventListener('mouseenter', () => {
             this.stopRotation();
@@ -72,12 +59,16 @@ class Carousel {
     }
 }
 
+// Initialize carousel with gallery container, gallery items, and gallery controls
 const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
 
-exampleCarousel.startRotation(); // Start automatic rotation
-exampleCarousel.addHoverListeners(); // Add hover listeners to stop and start rotation
+// Start automatic rotation
+exampleCarousel.startRotation();
 
+// Add hover listeners to stop and start rotation
+exampleCarousel.addHoverListeners();
 
+// Function to toggle responsive navigation
 function myFunction() {
     var x = document.getElementById("myNav");
     if (x.className === "navigointi") {
@@ -107,7 +98,6 @@ function getSheetData(apiKey) {
     const documentId = '1XgKMmJLKHzUeC-vpI__poWJLlg8dmJGr4kt6ws5TbcY';
     const range = 'Kokonaisaika!A2';
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${documentId}/values/${range}?key=${apiKey}`;
-
 
     fetch(url)
         .then(response => {
