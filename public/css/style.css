@@ -170,12 +170,6 @@ a:hover {
 }
 
 /* Fontit */
-.protest {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .gloria-hallelujah-regular {
   font-family: "Gloria Hallelujah", cursive;
   font-weight: 400;
@@ -204,6 +198,7 @@ div#content section {
   margin: 1em 2em 5em 2em;
 }
 
+/*sivun sisältö asetuksia*/
 article {
   flex: 40%;
   margin: 1% 0.5%;
@@ -239,11 +234,14 @@ article li {
   padding-top: 5%;
   font-size: 100%;
 }
-article h3, article h2, article h1 {
+article h3,
+article h2,
+article h1 {
   font-family: Gloria Hallelujah;
   font-size: 250%;
 }
-article h1, article h2 {
+article h1,
+article h2 {
   font-family: Gloria Hallelujah;
   font-size: 300%;
   text-align: center;
@@ -286,7 +284,7 @@ article.alternativeA {
   background-image: url("../img/kaksi.png");
 }
 article.alternativeA li {
-  list-style-image: url("../img/koira/latetassu3.png");
+  list-style-image: url("../img/koira/latetassu.png");
   margin-left: 10%;
   font-size: 110%;
 }
@@ -309,7 +307,8 @@ article.center div.tableDesign table th {
   text-decoration: underline;
   font-size: 110%;
 }
-article.center div.tableDesign table th, article.center div.tableDesign table td {
+article.center div.tableDesign table th,
+article.center div.tableDesign table td {
   padding: 0 1em;
   text-align: left;
   text-shadow: 1px 0 white;
@@ -715,6 +714,14 @@ footer div#logo img {
   div.dog li {
     font-size: 50%;
     line-height: 1;
+  }
+  /*yksi*/
+  article.alternativeB li {
+    list-style-image: url("../img/koira/seratassu1.png");
+  }
+  /*kaksi*/
+  article.alternativeA li {
+    list-style-image: url("../img/koira/latetassu1.png");
   }
   img.pattern {
     margin-left: 2%;
