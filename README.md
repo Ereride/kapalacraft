@@ -46,8 +46,9 @@ https://kapalacraft.onrender.com/
 Tulevaisuuden suunnitelmani projektin suhteen sisältävät seuraavat lisäykset:
 
 - **Kommentointialue:** Mahdollisuus käyttäjien kommentoida ja keskustella sivuston sisällöstä.
-- **Tähtiarvostelu:** Käyttäjien antama tähtiarvostelu sisällölle tai tuotteille.
-- **Portfoliosivu:** Alusta, jolla voin esitellä omia töitäni ja projektejani, erityisesti työnhakua varten.
+- **Tähtiarvostelu:** Käyttäjien antama tähtiarvostelu sisällölle tai lopputuloksille.
+- **Kävijälaskuri:** Kävijämäärän seuraaminen.
+- **Portfoliosivu:** Sivu, jolla voin esitellä omia töitäni ja projektejani, erityisesti työnhakua varten.
 - **Aside-alueiden käyttö:** Mahdollisuus lisätä sisältöä sivun sivupalkkeihin, kunhan keksin niille sopivan käyttötarkoituksen.
 
 ---
