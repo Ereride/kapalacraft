@@ -38,7 +38,7 @@ Tämä projekti oli antoisa kokemus, vaikka se hieman paisui suunnitellusta ja l
 
 Seuraavalla kerralla aion aloittaa mobiilisivujen suunnittelusta, sillä haluan varmistaa, että sivusto toimii saumattomasti erilaisilla laitteilla. Myös sivuston rakenteen uudelleenarviointi on mielessäni.
 
-Halusin kuitenkin kokeilla sivujen julkaisua Renderillä ja API-avaimen käyttöä ja sain sivuston toimimaan. Alla linkki josta löydät toimivat sivut.
+Halusin kuitenkin kokeilla sivujen julkaisua Renderillä ja API-avaimen käyttöä ja sain sivuston toimimaan. Tässä linkki josta löydät julkaistun sivun: 
 https://kapalacraft.onrender.com/ 
 
 ## Suunnitellut Lisäykset
