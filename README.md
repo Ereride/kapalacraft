@@ -26,7 +26,7 @@ Tässä projektissa käytän JavaScriptiä luomaan kuvakarusellin, joka pyörii 
 
 ## API Keyn Haku ja Datankeruu
 
-Käytän myös JavaScriptiä hakemaan dataa Google Sheetsistä käyttämällä API-avainta. Voit nähdä, miten tämä toimii ja sovittaa sen omaan projektiisi tarpeidesi mukaan. Jotta voit testailla tätä omalla google sheetillä tulee sinun luoda .env tiedosto jonne sijoitat oman API-avaimen. Google cloudin kautta löydät ohjeet heidän API-avaimen käyttöön.
+Käytän myös JavaScriptiä hakemaan dataa Google Sheetsistä käyttämällä API-avainta. Voit nähdä, miten tämä toimii ja sovittaa sen omaan projektiisi tarpeidesi mukaan. Jotta voit testailla tätä omalla google sheetillä tulee sinun luoda .env tiedosto jonne sijoitat oman API-avaimen. Google cloudin kautta löydät ohjeet heidän API-avaimen käyttöön. Pystyt myös testaamaan ilman Node käyttöä lisäämällä function getSheetData() sisään const apiKey = "API-avain tähän";. Ja kommentoit fetch ('/api-key'), jolloin sitä ei käytetä. Tämän jälkeen lisää vielä funktion kutsu getSheetData();.
 
 ## Tule Mukana Seikkailuun!
 
