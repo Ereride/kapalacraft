@@ -16,7 +16,7 @@ Käpäläcraft tarjoaa virtuaalisen nurkkauksen, jossa voi ilmaista luovuuttaan 
 
 ## Sovelluksen Ottaminen Käyttöön
 
-###Noden avulla (tarvitset Node expressin)
+### Noden avulla (tarvitset Node expressin)
 1. Luo .env-tiedosto ja lisää siihen API-avain:
     - Aloita luomalla uusi tiedosto nimeltä .env projektisi juurikansioon.
     - Avaa .env-tiedosto tekstieditorilla ja lisää siihen seuraava rivi: API_KEY=API-avain-tähän
@@ -25,7 +25,7 @@ Käpäläcraft tarjoaa virtuaalisen nurkkauksen, jossa voi ilmaista luovuuttaan 
     - Käytä JavaScriptiä getSheetData()-funktion avulla datan hakemiseen Google Sheetsistä.
     - Varmista, että {documentId} ja {range} korvataan oikeilla arvoilla Google Sheetsissäsi.
 
-###Ilman Nodea
+### Ilman Nodea
 Voit testata ilman Node-käyttöä lisäämällä API-avaimen suoraan koodiin:
 1. Muokkaa getSheetData()-funktiota lisäämällä API-avain suoraan: const apiKey = "API-avain tähän"
  - Poista tai Kommentoi fetch ('/api-key') funktio, jolloin sitä ei käytetä
