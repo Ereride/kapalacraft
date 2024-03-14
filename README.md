@@ -28,7 +28,7 @@ Käpäläcraft tarjoaa virtuaalisen nurkkauksen, jossa voi ilmaista luovuuttaan 
 ### Ilman Nodea
 Voit testata ilman Node-käyttöä lisäämällä API-avaimen suoraan koodiin:
 1. Muokkaa getSheetData()-funktiota lisäämällä API-avain suoraan: const apiKey = "API-avain tähän"
- - Poista tai Kommentoi fetch ('/api-key') funktio, jolloin sitä ei käytetä
+    - Voit poistaa tai Kommentoida fetch ('/api-key') funktio, koska sitä ei käytetä tässä tavassa
 2. Muista kutsua getSheetData()-funktiota, jotta se suoritetaan
 
 ## Projektin Kuvaus
