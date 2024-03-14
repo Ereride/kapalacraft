@@ -563,7 +563,7 @@ footer div#logo img {
     margin-right: 2%;
   }
   footer div#name p {
-    font-size: 40%;
+    font-size: 80%;
   }
 }
 /*900px*/
@@ -646,7 +646,7 @@ footer div#logo img {
     margin-right: 2%;
   }
   footer div#name p {
-    font-size: 40%;
+    font-size: 60%;
   }
 }
 /*600px*/
@@ -816,7 +816,7 @@ footer div#logo img {
     margin-left: 65%;
     width: 30%;
     height: 10%;
-    font-size: 15%;
+    font-size: 50%;
   }
   footer div#socialmedia {
     margin-bottom: 10%;

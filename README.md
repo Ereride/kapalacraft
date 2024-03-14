@@ -1,57 +1,44 @@
 ![käpäläcraft](public/img/logo.png)
-# Käpäläcraft - Luovuuden Nurkkaus README
+# Käpäläcraft - Luovuuden Nurkkaus
 
 Tervetuloa Käpäläcraftin Luovuuden Nurkkaukseen, seikkailuun elämän kirjavan kudoksen parissa!
 
-Hei, olen Minna, iloinen käsillä tekemisen ja jutustelun ystävä. Tämä on minun pieni virtuaalinen nurkkaukseni, jossa jokainen päivä on täynnä mahdollisuuksia luovuuden ja ilon jakamisen suhteen, joka sai nimekseen Käpäläcraft.
+## Käyttötarkoitus
 
-## Kuka Minna On?
+Käpäläcraft tarjoaa virtuaalisen nurkkauksen, jossa voi ilmaista luovuuttaan eri käsityömuodoissa ja jakaa iloa tekemisen kautta. Sivusto sisältää erilaisia luovia projekteja ja tarjoaa inspiraatiota sekä mahdollisuuden tutustua Minnan luomuksiin.
 
-Käsillä tekeminen on minulle kuin sydämen juttu – se on intohimoni ja tapa ilmaista itseäni. Oli kyse sitten ompelusta, virkkauksesta, askartelusta tai koirien kanssa touhuamisesta, teen sen aina suurella sydämellä ja intohimolla. Elämässäni on enemmän vauhtia kuin tivolissa! Pienten lasten, työkiireiden ja uuden ammatin opiskelun keskellä yritän pysyä kiinni arjen seikkailuissa. Ja sitten on nämä ihastuttavat karvaiset kaverit, joiden kanssa jokainen metsälenkki on kuin satuun astuminen. 
+## Kuinka Käyttää
 
-## Mitä Täältä Löytyy?
+- **Ompelu, Virkkaus, Askartelu**: Selaa erilaisia käsityöprojekteja ja inspiraatiota Minnan toteuttamista töistä.
+- **JavaScript Carousel**: Tutustu JavaScript-kuvakaruselliin, joka reagoi hiiren liikkeisiin. Voit myös muokata koodia omien tarpeidesi mukaan.
+- **API Keyn Haku ja Datankeruu**: Voit hakea dataa Google Sheetsistä käyttämällä API-avainta. Seuraa ohjeita `.env`-tiedoston luomiseen ja API-avaimen sijoittamiseen.
+- **Seuraa Suunniteltuja Lisäyksiä**: Tutustu tuleviin lisäyksiin, kuten kommentointialueeseen ja tähtiarvosteluun.
 
-### Ompelu
-Ompelu on minulle rakas harrastus, joka välillä kukoistaa ja välillä lepää hetken. Mutta suunnitelmat eivät lopu koskaan! Nelihenkisen perheen ja tilan puutteen haasteet eivät tukahduta luovuuden virtaa. Ja jos tämä ei olisi pelkkä tarina, niin näytetään myös suunnitelmia ja projekteja – ehkä saan ne joskus tasapainoon!
+## Sovelluksen Ottaminen Käyttöön
 
-### Virkkaus
-Virkkaus on vienyt minut mukanaan kuin virta, ja olen valmis uppoutumaan tähän uuteen maailmaan täysin. Vaikka saatan olla vähän hukassa virkkaustermeissä, koukkuni heiluvat ja langat liikkuvat – seuraavaksi koukusta voi pudota vaikka mitä!
+###Noden avulla (tarvitset Node expressin)
+1. Luo .env-tiedosto ja lisää siihen API-avain:
+    - Aloita luomalla uusi tiedosto nimeltä .env projektisi juurikansioon.
+    - Avaa .env-tiedosto tekstieditorilla ja lisää siihen seuraava rivi: API_KEY=API-avain-tähän
+    - Korvaa teksti "API-avain-tähän" omalla Google Sheets -tietokantaasi liittyvällä API-avaimella. Voit hankkia tämän avaimen Google Cloud -palvelusta.
+2. Käytä getSheetData()-funktiota hakemaan dataa Google Sheetsistä:
+    - Käytä JavaScriptiä getSheetData()-funktion avulla datan hakemiseen Google Sheetsistä.
+    - Varmista, että {documentId} ja {range} korvataan oikeilla arvoilla Google Sheetsissäsi.
 
-### Askartelu
-Askartelu on minulle kuin seikkailu luovuuden maailmassa. Koruaskartelu, paperiaskartelu, makramee, miniatyyrit, ristipisto, tarrojen tekeminen ja vihkojen valmistus – täällä kohtaavat pienet ilot ja suuret luovat mahdollisuudet.
-
-## JavaScript Carousel
-
-Tässä projektissa käytän JavaScriptiä luomaan kuvakarusellin, joka pyörii automaattisesti ja reagoi hiiren liikkeisiin. Voit tutustua koodiin ja muokata sitä tarpeidesi mukaan.
-
-## API Keyn Haku ja Datankeruu
-
-Käytän myös JavaScriptiä hakemaan dataa Google Sheetsistä käyttämällä API-avainta. Voit nähdä, miten tämä toimii ja sovittaa sen omaan projektiisi tarpeidesi mukaan. Jotta voit testailla tätä omalla google sheetillä tulee sinun luoda .env tiedosto jonne sijoitat oman API-avaimen. Google cloudin kautta löydät ohjeet heidän API-avaimen käyttöön. Pystyt myös testaamaan ilman Node käyttöä lisäämällä function getSheetData() sisään const apiKey = "API-avain tähän";. Ja kommentoit fetch ('/api-key'), jolloin sitä ei käytetä. Tämän jälkeen lisää vielä funktion kutsu getSheetData();.
-
-## Tule Mukana Seikkailuun!
-
-Tervetuloa siis mukaan tutkimusmatkalle luovuuden kiehtovaan maailmaan! Toivottavasti löydät täältä inspiraatiota ja iloa omalle matkallesi. Muista, että yhdessä voimme tehdä tästä maailmasta hieman kauniimman paikan. Kiitos, että olet täällä mukana!
+###Ilman Nodea
+Voit testata ilman Node-käyttöä lisäämällä API-avaimen suoraan koodiin:
+1. Muokkaa getSheetData()-funktiota lisäämällä API-avain suoraan: const apiKey = "API-avain tähän"
+ - Poista tai Kommentoi fetch ('/api-key') funktio, jolloin sitä ei käytetä
+2. Muista kutsua getSheetData()-funktiota, jotta se suoritetaan
 
 ## Projektin Kuvaus
 
-Tämä projekti oli antoisa kokemus, vaikka se hieman paisui suunnitellusta ja lopulta oli pakko lopettaa kesken. Erityisesti CSS-osuus tarjosi paljon oppimista, ja vaikka sivut jäivät vielä keskeneräisiksi, ne tarjoavat hyvän pohjan tulevaa käyttöä varten.
-
-Seuraavalla kerralla aion aloittaa mobiilisivujen suunnittelusta, sillä haluan varmistaa, että sivusto toimii saumattomasti erilaisilla laitteilla. Myös sivuston rakenteen uudelleenarviointi on mielessäni.
-
-Halusin kuitenkin kokeilla sivujen julkaisua Renderillä ja API-avaimen käyttöä ja sain sivuston toimimaan. Tässä linkki josta löydät julkaistun sivun: 
-https://kapalacraft.onrender.com/ 
+Projekti tarjoaa virtuaalisen luovuuden nurkkauksen eri käsityömuodoille. Vaikka projekti jäi hieman kesken, se tarjoaa hyvän pohjan tuleville kehityksille. Sivusto on julkaistu Renderillä ja saatavilla osoitteessa [Käpäläcraft - Luovuuden Nurkkaus](https://kapalacraft.onrender.com/).
 
 ## Suunnitellut Lisäykset
 
-Tulevaisuuden suunnitelmani projektin suhteen sisältävät seuraavat lisäykset:
+Tulevaisuuden suunnitelmiin kuuluu kommentointialueen, tähtiarvostelun, kävijälaskurin, portfoliosivun ja aside-alueiden käytön lisääminen sivustolle.
 
-- **Kommentointialue:** Mahdollisuus käyttäjien kommentoida ja keskustella sivuston sisällöstä.
-- **Tähtiarvostelu:** Käyttäjien antama tähtiarvostelu sisällölle tai lopputuloksille.
-- **Kävijälaskuri:** Kävijämäärän seuraaminen.
-- **Portfoliosivu:** Sivu, jolla voin esitellä omia töitäni ja projektejani, erityisesti työnhakua varten.
-- **Aside-alueiden käyttö:** Mahdollisuus lisätä sisältöä sivun sivupalkkeihin, kunhan keksin niille sopivan käyttötarkoituksen.
+Tervetuloa tutkimaan luovuuden kiehtovaa maailmaa Käpäläcraftissa! Toivottavasti löydät inspiraatiota ja iloa omiin projekteihisi.
 
----
-
-**Käpäläcraft - Luovuuden Nurkkaus README** © 2024 Minna. Kaikki oikeudet pidätetään.
-
+© 2024 Minna. Kaikki oikeudet pidätetään.
